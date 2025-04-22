@@ -1,4 +1,4 @@
-# Coding Assessment Solutions
+# Coding Assessment Examples
 
 This repo is a collection of coding assessment solutions that may be asked during a coding interview.
 
