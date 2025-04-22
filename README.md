@@ -6,8 +6,8 @@ This repo is a collection of coding assessment solutions that may be asked durin
 
 2. Write a function that accepts one parameter. The function will return the nth term in the Fibonacci sequence.
 
-   > ![NOTE]  
-   > [What is the Fibonacci sequence?](https://en.wikipedia.org/wiki/Fibonacci_sequence)
+> [!NOTE]  
+> [What is the Fibonacci sequence?](https://en.wikipedia.org/wiki/Fibonacci_sequence)
 
 20. Decoding a Secret Message (2025)
     
