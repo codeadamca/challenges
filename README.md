@@ -12,7 +12,7 @@ This repo is a collection of coding assessment solutions that may be asked durin
      * @returns {string} The reversed string representation of the input.
      */
     function reverseValue(input) {
-    // ...
+        // ...
     }
     ```
 
