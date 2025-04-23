@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Sequence</title>
+</head>
+<body>
+
+    <script>
+
+    /**
+     * Returns the nth term in the Fibonacci sequence.
+     *
+     * @param {number} n - The position (1-based) in the Fibonacci sequence to retrieve.
+     * @returns {number} The nth Fibonacci number.
+     */
+    function getFibonacci(n) {
+        
+        console.log(n);
+
+        let fibonacci = Array();
+        fibonacci[1] = 0;
+        fibonacci[2] = 1;
+
+        for(let i = 1; i <= n; i ++)
+        {
+            if(fibonacci[i] == undefined)
+            {
+                fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2]
+            }
+        }
+
+        return fibonacci[n];
+
+    }
+
+    console.log(getFibonacci(5));
+    console.log(getFibonacci(15));
+
+    </script>
+    
+</body>
+</html>
