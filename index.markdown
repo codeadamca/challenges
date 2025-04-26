@@ -1,4 +1,8 @@
-# Coding Assessment Examples
+# challenges
+
+<style>@import url("//readme.codeadam.ca/readme.css");</style>
+
+## Coding Challenges
 
 This repo is a collection of coding assessment solutions that may be asked during a coding interview.
 
