@@ -11,22 +11,23 @@
 
     <script>
 
+
     /**
-     * Determines whether the given number is a perfect number.
-     * A perfect number is a number that is equal to the sum of its proper divisors (excluding itself).
-     *
-     * @param {number} num - The number to check.
-     * @returns {boolean} True if the number is perfect, false otherwise.
-     */
+    * Determines whether the given number is a perfect number.
+    * A perfect number is a number that is equal to the sum of its proper divisors (excluding itself).
+    *
+    * @param {number} num - The number to check.
+    * @returns {boolean} True if the number is perfect, false otherwise.
+    */
     function isPerfectNumber(num) {
         
         let divisors = [];
 
-        for( let i = 1; i < num; i ++)
+        for(let i = 1; i < num; i ++)
         {
             if(num % i == 0)
-            {
-                divisors.push(i); 
+            {   
+                divisors.push(i);
             }
         }
 
@@ -37,12 +38,16 @@
             sum += divisors[i];
         }
 
-        return num === sum;
+        return sum === num;
 
+        // if(sum == num) return trur;
+        // else return false;
+        
     }
 
-    console.log(isPerfectNumber(12));
+    console.log(isPerfectNumber(15));
     console.log(isPerfectNumber(28));
+    console.log(isPerfectNumber(72));
 
     </script>
     
