@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Number</title>
+</head>
+<body>
+
+    <h1>Perfect Number</h1>
+
+    <script>
+
+    /**
+     * Determines whether the given number is a perfect number.
+     * A perfect number is a number that is equal to the sum of its proper divisors (excluding itself).
+     *
+     * @param {number} num - The number to check.
+     * @returns {boolean} True if the number is perfect, false otherwise.
+     */
+    function isPerfectNumber(num) {
+        
+        let divisors = [];
+
+        for( let i = 1; i < num; i ++)
+        {
+            if(num % i == 0)
+            {
+                divisors.push(i); 
+            }
+        }
+
+        let sum = 0;
+
+        for(let i = 0; i < divisors.length; i ++)
+        {
+            sum += divisors[i];
+        }
+
+        return num === sum;
+
+    }
+
+    console.log(isPerfectNumber(12));
+    console.log(isPerfectNumber(28));
+
+    </script>
+    
+</body>
+</html>
