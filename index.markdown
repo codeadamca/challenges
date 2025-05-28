@@ -50,7 +50,7 @@ This repo is a collection of coding assessment solutions that may be asked durin
         // ...
     }
     ```
-4. Wite a function that determines whether or not the first parameter is a perfect number.
+4. Write a function that determines whether or not the first parameter is a perfect number.
 
     ```javascript
     /**
