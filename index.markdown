@@ -122,3 +122,12 @@ https://docs.google.com/document/d/e/2PACX-1vRMx5YQlZNa3ra8dYYxmv-QIQ3YJe8tbI3kq
 
 https://prepinsta.com/interview-preparation/technical-interview-questions/most-asked-coding-questions-in-placements/
 -->
+
+<div class="components" id="resources">--resources--</div>
+<script src="https://cdn.codeadam.ca/components@1.0.0/components.js"></script>
+
+---
+
+<a href="https://codeadam.ca">
+<img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured-horizontal.png" width="100">
+</a>
