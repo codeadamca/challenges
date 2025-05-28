@@ -98,6 +98,20 @@ This repo is a collection of coding assessment solutions that may be asked durin
     }
     ```
 
+7. Write a function the lists all the potential divisors of a number. You will likely need a loop to do this. What is the lowest number of loop iterations needed to achieve this?
+
+    ```javascript
+    /**
+     * Generates a list of divisors of teh given number. 
+     *
+     * @param {number} num - The number to check.
+     * @returns {array} A list of integer divisors.
+     */
+    function getDivisors(num) {
+        // ...
+    }
+    ```
+
 <!--
 20. Decoding a Secret Message (2025)
     
