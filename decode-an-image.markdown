@@ -8,9 +8,18 @@
 
 The function will be provided a URL like the following:
 
-[Decode an Image Sample One](decode-an-image-sample-1)
-2. [Decode an Image Sample Two](decode-an-image-sample-2)
-3. [Decode an Image Sample Three](decode-an-image-sample-3)
+[https://challenges.codeadam.ca/decode-an-image-sample-1](decode-an-image-sample-1)
+
+The table on the example URL includes a list of colours, x, and y coordinates. When the colours are placed in a grid using the x and y coordinates they will create a small image. 
+
+For example, the above URL will create the following image:
+
+[Sample Grid](images/technical-interview-grid.png)
+
+
+
+1. [https://challenges.codeadam.ca/decode-an-image-sample-2](decode-an-image-sample-2)
+2. [https://challenges.codeadam.ca/decode-an-image-sample-3](decode-an-image-sample-3)
 
 ### Function Scaffolding
 
@@ -18,7 +27,7 @@ The function will be provided a URL like the following:
 /**
  * Reverses the value of the input.
  *
- * @param {string|url} url - The URL of the table to be decoded.
+ * @param {string|url} url - The URL of the grid to decode.
  * @returns {void} 
  */
 function decode(url) {
@@ -32,7 +41,7 @@ function decode(url) {
 
 ### Assets
 
-> [Download PDF Slide Desk](/pdfs/decode.pdf)
+> [Download PDF Slide Desk](/pdfs/decode-an-image.pdf)
 
 ---
 
