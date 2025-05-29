@@ -14,7 +14,7 @@ The table in the example URL includes a list of colours, x, and y coordinates. W
 
 For example, the above URL will create the following image:
 
-[Sample Grid](images/technical-interview-grid.png)
+[Sample Grid](images/decode-an-image-grid.png)
 
 Once your code is complete, test your function with the following URLs:
 
