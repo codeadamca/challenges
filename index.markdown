@@ -102,6 +102,8 @@ This repo is a collection of coding assessment solutions that may be asked durin
     }
     ```
 
+8. [Decode an Image](/decode-an-image)
+
 <!--
 20. Decoding a Secret Message (2025)
     
