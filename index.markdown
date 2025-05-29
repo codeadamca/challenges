@@ -4,6 +4,8 @@
 
 ## Coding Challenges
 
+![Technical Interview](images/technical-interview.png)
+
 This repo is a collection of coding assessment solutions that may be asked during a coding interview.
 
 1. [Reverse a String](/reverse)

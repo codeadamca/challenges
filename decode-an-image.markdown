@@ -1,4 +1,4 @@
-[Home](/) / Reverse a String
+[Home](/) / Decode an Image
 
 <style>@import url("//readme.codeadam.ca/readme.css");</style>
 
@@ -6,11 +6,11 @@
 
 **Write a function that will decode a cryptic image from a web page.**
 
-Here are three sampe files to decode:
+The function will be provided a URL like the following:
 
-1. [Decode Sample One](decode-sample-1)
-2. [Decode Sample Two](decode-sample-2)
-3. [Decode Sample Three](decode-sample-3)
+[Decode an Image Sample One](decode-an-image-sample-1)
+2. [Decode an Image Sample Two](decode-an-image-sample-2)
+3. [Decode an Image Sample Three](decode-an-image-sample-3)
 
 ### Function Scaffolding
 
