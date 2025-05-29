@@ -28,6 +28,8 @@ function reverseValue(input) {
 4. Append each character to the beginning of the `reverse` variable. 
 5. Return the contents of the `reverse` variable.
 
+> [Download PDF Slide Desk](/pdfs/reverse-a-string.pdf)
+
 ---
 
 <a href="https://codeadam.ca">
