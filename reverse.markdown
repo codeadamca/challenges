@@ -22,11 +22,11 @@ function reverseValue(input) {
 
 ### Possible Approach
 
-1. Create a function with one parameter. Have the function console.log() the input.
-2. Define an empty string variable called reverse to store the reversed string. 
-3. Use a loop to iterate through each character.
-4. Append each character to the beginning of the reverse variable. 
-5. Return the contents of the reverse variable.
+1. Create a function with one parameter. Have the function `console.log()` the input.
+2. Define an empty string variable called `reverse` to store the reversed string. 
+3. Use a `for` loop to iterate through each character.
+4. Append each character to the beginning of the `reverse` variable. 
+5. Return the contents of the `reverse` variable.
 
 ---
 
