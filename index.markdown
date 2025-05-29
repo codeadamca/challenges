@@ -6,19 +6,7 @@
 
 This repo is a collection of coding assessment solutions that may be asked during a coding interview.
 
-1. Write a function that will return the reverse of the value of the first parameter.
-
-    ```javascript
-    /**
-     * Reverses the value of the input.
-     *
-     * @param {string|number} input - The value to be reversed. Can be a string or a number.
-     * @returns {string} The reversed string representation of the input.
-     */
-    function reverseValue(input) {
-        // ...
-    }
-    ```
+1. [Reverse a String](/reverse)
 
 2. Write a function that will return the nth term in the Fibonacci sequence, where n is the first parameter.
 
