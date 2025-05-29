@@ -10,13 +10,13 @@ The function will be provided a URL like the following:
 
 [https://challenges.codeadam.ca/decode-an-image-sample-1](decode-an-image-sample-1)
 
-The table on the example URL includes a list of colours, x, and y coordinates. When the colours are placed in a grid using the x and y coordinates they will create a small image. 
+The table in the example URL includes a list of colours, x, and y coordinates. When the colours are placed in a grid using the x and y coordinates they will create a small image.
 
 For example, the above URL will create the following image:
 
 [Sample Grid](images/technical-interview-grid.png)
 
-
+Once your code is complete, test your function with the following URLs:
 
 1. [https://challenges.codeadam.ca/decode-an-image-sample-2](decode-an-image-sample-2)
 2. [https://challenges.codeadam.ca/decode-an-image-sample-3](decode-an-image-sample-3)
@@ -38,6 +38,10 @@ function decode(url) {
 ### Possible Approach
 
 1. Create a function with one parameter. Have the function `console.log()` the input.
+2. Scape the url input into a variable named `html`. 
+3. Extract the `table` from the `html` variable.
+4. Convert the tabular data into a array called `grid`.
+5. Loop through the `grid` array and generate an image using a `table`, a set of `divs`, or unicode characters.
 
 ### Assets
 
