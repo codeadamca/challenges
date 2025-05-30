@@ -12,7 +12,9 @@ A collection of coding challenges.
 
 ## Project Stack
 
-This project uses only [Markdown](https://www.markdownguide.org/) and is hosted using [GitHub Pages](https://pages.github.com/).
+This project uses only basic HTML in [Markdown](https://www.markdownguide.org/) files. This allows us to use basic HTML for our content and still include the GitHub default styling.
+
+This repo is hosted using [GitHub Pages](https://pages.github.com/).
 
 <img src="https://console.codeadam.ca/api/image/github" width="60"> <img src="https://console.codeadam.ca/api/image/markdown" width="60">
 
