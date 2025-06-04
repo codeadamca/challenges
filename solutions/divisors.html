@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Divisors</title>
+</head>
+<body>
+
+    <h1>Get Divisors</h1>
+
+    <script>
+
+    /**
+     * Generates a list of divisors of teh given number. 
+     *
+     * @param {number} num - The number to check.
+     * @returns {array} A list of integer divisors.
+     */
+    function getDivisors(num) {
+        
+        let divisors = [];
+
+        for(let i = 1; i <= Math.floor(Math.sqrt(num)); i ++)
+        {
+            // 10 / 5 = 2 r 0
+            // 16 / 5 = 3 r 1
+            // 16 % 5 = 1
+            if(num % i == 0)
+            {
+                divisors.push(i);
+                divisors.push(num / i);
+            }
+        }
+
+        divisors = [new Set(divisors)];
+
+        return divisors;
+
+    }
+
+    console.log(getDivisors(7));
+    console.log(getDivisors(100));
+    console.log(getDivisors(107));
+    console.log(getDivisors(3768));
+
+    </script>
+    
+</body>
+</html>
