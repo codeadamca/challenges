@@ -10,21 +10,8 @@ This repo is a collection of coding assessment solutions that may be asked durin
 
 1. [Reverse a String](/reverse)
 2. [Fibonacci Sequence](Fibonacci)
+3. [Common Denominators](common-denominators)
 
-3. Write a function that calculates the greatest common denominator of the first and second parameters.
-
-    ```javascript
-    /**
-     * Calculates the greatest common denominator (GCD) of two numbers.
-     *
-     * @param {number} a - The first number.
-     * @param {number} b - The second number.
-     * @returns {number} The greatest common denominator of a and b.
-     */
-    function getGCD(a, b) {
-        // ...
-    }
-    ```
 4. Write a function that determines whether or not the first parameter is a perfect number.
 
     ```javascript
