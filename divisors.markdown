@@ -22,12 +22,12 @@ function getDivisors(num) {
 
 ### Possible Approach
 
-1. Create a function with one parameter. Have the function console.log() the input.
-2. Define an array named divisors.
-3. Create a loop that iterates n number of times.
-4. In each iteration check if the number is divisible by i.
-5. If the number is divisible by i, add it to the divisors array.
-6. Return the divisors array.
+1. Create a function with one parameter. Have the function `console.log()` the input.
+2. Define an array named `divisors`.
+3. Create a loop that iterates `n` number of times.
+4. In each iteration check if the number is divisible by `i`.
+5. If the number is divisible by `i`, add it to the `divisors` array.
+6. Return the `divisors` array.
 
 ### Additional Challenge
 

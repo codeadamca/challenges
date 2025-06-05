@@ -24,11 +24,11 @@ function getFibonacci(n) {
 
 ### Possible Approach
 
-1. Create a function with one parameter. Have the function console.log() the input.
-2. If n is 0 or 1 then return n.
+1. Create a function with one parameter. Have the function `console.log()` the input.
+2. If `n` is 0 or 1 then return `n`.
 3. Create an array that has the first two numbers of the Fibonacci sequence.
-4. Write a loop that will iterate n number of times. 
-5. In each iteration add the two previous numbers and add it to the array.
+4. Write a loop that will iterate `n` number of times. 
+5. In each iteration sum the two previous numbers and add it to the array.
 6. Return the last number in the array.
 
 ### Assets

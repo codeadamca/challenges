@@ -26,10 +26,11 @@ function isPerfectNumber(num) {
 ### Possible Approach
 
 1. Create a function with one parameter. Have the function `console.log()` the input.
-2. Define an empty string variable called `reverse` to store the reversed string. 
-3. Use a `for` loop to iterate through each character.
-4. Append each character to the beginning of the `reverse` variable. 
-5. Return the contents of the `reverse` variable.
+2. Use a loop to determine all the potential divisors.
+3. Place all divisors except the input number in an array.
+4. Sum all the numbers in the array.
+5. Compare the total with the `input`.
+6. Return true or false.
 
 ### Assets
 

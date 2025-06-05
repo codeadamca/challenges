@@ -1,10 +1,12 @@
-[Home](/) / Paladrome
+[Home](/) / Palindrome
 
 <style>@import url("//readme.codeadam.ca/readme.css");</style>
 
-## Palidrome
+## Palindrome
 
 **Write a function that determines if the first parameter is Palindrome or not.**
+
+[What is a Palindrome?](https://en.wikipedia.org/wiki/Palindrome)
 
 ### Function Scaffolding
 
@@ -27,11 +29,11 @@ function isPalindrome(str) {
 2. Define an empty string variable called `reverse` to store the reversed string. 
 3. Use a `for` loop to iterate through each character.
 4. Append each character to the beginning of the `reverse` variable. 
-5. Return the contents of the `reverse` variable.
+5. Return `true` if the contents of the input is the same as the `reverse` variable.
 
 ### Assets
 
-> [Download PDF Slide Desk](/pdfs/palidrome.pdf)
+> [Download PDF Slide Desk](/pdfs/palindrome.pdf)
 
 ---
 
