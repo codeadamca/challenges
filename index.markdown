@@ -9,71 +9,12 @@
 This repo is a collection of coding assessment solutions that may be asked during a coding interview.
 
 1. [Reverse a String](/reverse)
-2. [Fibonacci Sequence](Fibonacci)
-3. [Common Denominators](common-denominators)
-
-4. Write a function that determines whether or not the first parameter is a perfect number.
-
-    ```javascript
-    /**
-     * Determines whether the given number is a perfect number.
-     * A perfect number is a number that is equal to the sum of its proper divisors (excluding itself).
-     *
-     * @param {number} num - The number to check.
-     * @returns {boolean} True if the number is perfect, false otherwise.
-     */
-    function isPerfectNumber(num) {
-        // ...
-    }
-    ```
-
-    > [What is a perfect number?](https://en.wikipedia.org/wiki/Perfect_number)
-
-5. Write a function that determines if the first and second parameter are an anagram of each other or not.
-
-    ```javascript
-    /**
-     * Determines if two values are anagrams of each other.
-     * An anagram is formed by rearranging the letters of one word to create another.
-     *
-     * @param {string} str1 - The first string to compare.
-     * @param {string} str2 - The second string to compare.
-     * @returns {boolean} True if the strings are anagrams, false otherwise.
-     */
-    function areAnagrams(str1, str2) {
-        // ...
-    }
-    ```
-
-6. Write a function that determines if the first parameter is Palindrome or not.
-
-    ```javascript
-    /**
-     * Determines if the given string is a palindrome.
-     * A palindrome reads the same forward and backward.
-     *
-     * @param {string} str - The string to check.
-     * @returns {boolean} True if the string is a palindrome, false otherwise.
-     */
-    function isPalindrome(str) {
-        // ...
-    }
-    ```
-
-7. Write a function the lists all the potential divisors of a number. You will likely need a loop to do this. What is the lowest number of loop iterations needed to achieve this?
-
-    ```javascript
-    /**
-     * Generates a list of divisors of teh given number. 
-     *
-     * @param {number} num - The number to check.
-     * @returns {array} A list of integer divisors.
-     */
-    function getDivisors(num) {
-        // ...
-    }
-    ```
-
+2. [Fibonacci Sequence](/fibonacci)
+3. [Common Denominators](/common-denominators)
+4. [Perfect Number](/perfect)
+5. [Anagrams](/anagram)
+6. [Palidrome](/palidrome)
+7. [Divisors](/divisors)
 8. [Decode an Image](/decode-an-image)
 
 <!--
