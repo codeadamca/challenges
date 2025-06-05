@@ -9,22 +9,7 @@
 This repo is a collection of coding assessment solutions that may be asked during a coding interview.
 
 1. [Reverse a String](/reverse)
-
-2. Write a function that will return the nth term in the Fibonacci sequence, where n is the first parameter.
-
-    ```javascript
-    /**
-     * Returns the nth term in the Fibonacci sequence.
-     *
-     * @param {number} n - The position (1-based) in the Fibonacci sequence to retrieve.
-     * @returns {number} The nth Fibonacci number.
-     */
-    function getFibonacci(n) {
-        // ...
-    }
-    ```
-
-    > [What is the Fibonacci sequence?](https://en.wikipedia.org/wiki/Fibonacci_sequence)
+2. [Fibonacci Sequence](Fibonacci)
 
 3. Write a function that calculates the greatest common denominator of the first and second parameters.
 
