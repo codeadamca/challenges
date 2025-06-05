@@ -25,6 +25,10 @@ function areAnagrams(str1, str2) {
 ### Possible Approach
 
 1. Create a function with one parameter. Have the function `console.log()` the input.
+2. Check the length of each string. If they are not equal, return false. 
+3. Convert each string to an array of letters.
+4. Loop through one of the arrays and compare each letter form the first string with each letter from the second string. 
+5. If any letters are different, return false. Otherwise, return true.
 
 ### Assets
 
